@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8J">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <section class="container">
+    <div class="header">
+        <form class="weather_head">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="search" placeholder="Enter your city"> 
+        </form>
+    </div>
+    <div class="body">
+        <h1 class="city"> city</h1>
+        <p class="datee"></p>
+        <div class="data">
+            <p class="forcaste"></p>
+            <div class="icone"></div>
+        </div>
+        <p class="tempraturee"></p>
+        <div class="minmax">
+            <p class="min"></p>
+            <p class="max"></p>
+        </div>
+    </div>
+    <section class="info">
+        <div class="card">
+         <i class="fa-solid fa-droplet"></i>
+       
+        <p>Feels Like</p>
+         <p class="feels">15&#176</p>
+         </div>
+        <div class="card">
+           <i class="fa-solid fa-droplet"></i>
+       
+        <p>Humidity</p>
+         <p class="humidity">15&#176</p>
+         </div>
+        <div class="card">
+          <i class="fa-solid fa-wind"></i>
+       
+        <p>Wind</p>
+         <p class="wind">15&#176</p>
+         </div>
+        <div class="card">
+        <i class="fa-solid fa-gauge high"></i>
+        
+        <p> pressure</p>
+         <p class="pressure">15&#176</p>
+         </div>
+    </section>
+    <video autoplay muted loop playsinline class="background-video">
+  <source src="videos/clear.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+  
+
+
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
