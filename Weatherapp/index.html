@@ -12,7 +12,11 @@
     <div class="header">
         <form class="weather_head">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" class="search" placeholder="Enter your city"> 
+            <div class="search-container">
+                <input type="text" class="search" placeholder="Enter your city" autocomplete="off"> 
+                <i class="fa-solid fa-location-crosshairs gps-btn" title="Use current location"></i>
+                <div class="suggestions-list"></div>
+            </div>
         </form>
     </div>
     <div class="body">
@@ -30,7 +34,7 @@
     </div>
     <section class="info">
         <div class="card">
-         <i class="fa-solid fa-droplet"></i>
+         <i class="fa-solid fa-temperature-half"></i>
        
         <p>Feels Like</p>
          <p class="feels">15&#176</p>
